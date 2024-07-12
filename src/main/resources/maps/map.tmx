@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="80" height="70" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="167">
+ <tileset firstgid="1" name="tileset01" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tilesets/tileset01.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="501" name="tileset02" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tilesets/tileset02.png" width="320" height="400"/>
+ </tileset>
+ <layer id="2" name="background" width="80" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztmjtsFEcYx5cZOmxhuyTEUACigMSvIhLuMOaRJhQo4FC4SJEEsF0iESkgoEt4mYrKPGJogIY0QAGFE/NKIiVKFaoggZAihYpIxCb/le+D8TBzNzuP3bm9LX6a727n1rc/f99+c7t7hCXJkQonfgN/VGTid8HfOTCU5MtV/M3exA8+92XKdYW/rUzPt+A7cAKcBKfAaWE8AybB2Tr7IER/93mSPOBuI+1rKcsHG39T4Dy4AC6CS+B7YZwGl8GVjP5mcfz3uP3YLP5ugB8A43puYfvtAvOvhyWjAXHyNwvuNfD3C7b/WmD+9bJwuPr7Ezxu4O8vbH9SYP7F7M8k/15i+79V/lnn3zLQxqv8s80/m/5R5Z9b/2iV/DNZv9j0D9f8m20Sf6Hq10f+hfQWe/36yD9bJ20Cof39A16AFfi+74GV4H0h7garwGoex/lvH97fDw7U8Zt6+yjJx98GfI+N4APwIehJv5cQ94F+MJDRX5Hnvzzzzyet2H9FqDa2GORazPnn258JBzH3EPiaLcSu10/LkH+vwN0MkL8sn5Hp4K2Zf4OCv8Eq/xb5m8F3+RH8xMPGZT3/zUjHeyaQxzLnn3ic0zn4K3P+3Wyy/Cv6/kd6jOsF6HibJf+Kvv9WhD9dXtEafSRD/rWiPx20Rmqm5w8a4dPfcu5vjZ51/e8D2V+9ua+ZnT+qwcOa/PukDuSv3hwihvz7W8Fgbbxq6a9R/abHPsTdEP1N4vVlnoyG5AueTKn8/bckSebAV+wt6fq5mfzh+JJ2FpYvNf46QCdb7G86R387pJhq/xvNdpW/WwX6WwPWSv5uBvKH89oo4Zp/OE9OEe2C97FALnX+qH7p7w+DebzeFcAfjnWUEF2IeUWvVe+Jr/E/mCJC555J/XZJcTOd/4r0R/W7Toorf+/6S0dd/aY1K8aiP5+QPx2oxzuo7ztZ1n+x1m+j3wo2dDbYJ/nLci8gxvoV+0eekL8sv3+L9GdSv90YV4HVzD62HeV9UByLv52scf/tw9gPBph9bDLSGmoP1++D4lj8mfTfYbZw/3sbs49tR3kfFMfiz6R+RzB+BvYy+9h2lPdBcSz+dP1X7B9jGMfBBLOPbUd5HxTH4s+kfqv+4Va/efUP1eirf+D4nZjkC2sqm9+/Zegfoa4/m9RvGfrHPAtz/0NXv2XrHzTXd/6Z1G8Z+oc4dyt7d2zEdmZfv2XoHzQ3dbG3RtbYtv/G2D+GIvFnUr9l6B+iP1tsr1/F2D9851+75n0f9Rtj/3Dx9xDr4UfgZ55P/dr2jG4Wrn+I90JN/NHc1Mc4vE3wxbWp+5xt/Yr+ioJyTdU/xHuhJv5obvrZo3B3jOvrV1fLWeu3K8D9DxPouSXKNVX/aIb+S88RieTxnrxuEq9L++gfPvuvLv9cY5N5c4ptYt+nXPPdP/LIP9dY5Wszf4vquSX5ua9NfIHNtXvm6ZjO6Y7In65/uMYqr+nxf14bVc8tyc99kb9Pwe7aOF27t1T2+lV5Tb19XMsj1XOH8nNfqvxL5wxHlH951a+pd1X/kNfUIxH5y6t+Tb2r+oe8ph5z8Hec+avfayy/+jX1LuYfrVXkazIu/aMeoieT66dPwfOKN5C/enOeCf4qFkP+TOb+DwQJ3Og=
+  </data>
+ </layer>
+ <layer id="1" name="walls" width="80" height="70" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt2FGKwzAQBFH7/if1LXIAB+JJyeqRqAb9upRHAt69zuO4PJ7wmb2RzdT99WNN/VhTP9bUjzX1Y039WFM/1tSPNfVjTf1Ycxe/xPRj28nP32+fZ1Wa+rGmfqypH2vS/1WTZ+zml+h3fFalqR9r6sea+rGmfqypH2vqx5r6sWbab8Y7epfzhl/HZ1WaT330+97UjzX1Y82k3+rTjy3t5++X9zs+q9LUjzUrfqn39dT7/a+lv38jpx+bfmz6senHph+bfmz6senHph9b5X5v/71E75dY1W9UUz/W1I819WNN/VhTP9bUjzV38UtMP7aqX+o8/SyVzz1i/9xz9vRj049NPzb92PRj049NP7aV/Dz371L6Hqueit8HQRYunA==
+  </data>
+ </layer>
+ <objectgroup id="3" name="actors">
+  <object id="2" name="ellen" type="ripley" x="624" y="528" width="32" height="32"/>
+  <object id="3" name="exit door" type="horizontal" x="1104" y="1104" width="32" height="16"/>
+  <object id="7" name="locked door" type="vertical" x="784" y="208" width="16" height="32"/>
+  <object id="8" name="front door" type="vertical" x="784" y="912" width="16" height="32"/>
+  <object id="9" name="front door" type="vertical" x="960" y="912" width="16" height="32"/>
+  <object id="10" name="front door" type="horizontal" x="608" y="624" width="32" height="16"/>
+  <object id="11" name="front door" type="vertical" x="784" y="544" width="16" height="32"/>
+  <object id="12" name="front door" type="horizontal" x="608" y="464" width="32" height="16"/>
+  <object id="13" name="front door" type="vertical" x="480" y="544" width="16" height="32"/>
+  <object id="14" name="front door" type="horizontal" x="208" y="320" width="32" height="16"/>
+  <object id="15" name="alien" type="waiting1" x="32" y="656" width="32" height="32"/>
+  <object id="17" name="alien" type="waiting1" x="96" y="656" width="32" height="32"/>
+  <object id="18" name="alien" type="waiting1" x="96" y="720" width="32" height="32"/>
+  <object id="19" name="alien" type="waiting1" x="32" y="720" width="32" height="32"/>
+  <object id="20" name="alien" type="waiting1" x="32" y="784" width="32" height="32"/>
+  <object id="21" name="alien" type="waiting1" x="32" y="848" width="32" height="32"/>
+  <object id="22" name="alien" type="waiting1" x="96" y="784" width="32" height="32"/>
+  <object id="23" name="alien" type="waiting1" x="96" y="848" width="32" height="32"/>
+  <object id="24" name="alien" type="waiting1" x="288" y="1040" width="32" height="32"/>
+  <object id="25" name="alien" type="waiting1" x="160" y="1040" width="32" height="32"/>
+  <object id="26" name="alien" type="waiting1" x="224" y="976" width="32" height="32"/>
+  <object id="27" name="alien" type="waiting1" x="288" y="976" width="32" height="32"/>
+  <object id="28" name="alien" type="waiting1" x="352" y="976" width="32" height="32"/>
+  <object id="29" name="alien" type="waiting1" x="416" y="976" width="32" height="32"/>
+  <object id="30" name="alien" type="waiting1" x="224" y="1040" width="32" height="32"/>
+  <object id="31" name="alien" type="waiting1" x="160" y="976" width="32" height="32"/>
+  <object id="32" name="alien" type="waiting1" x="352" y="1040" width="32" height="32"/>
+  <object id="33" name="alien" type="waiting1" x="416" y="1040" width="32" height="32"/>
+  <object id="34" name="alien" type="waiting1" x="32" y="912" width="32" height="32"/>
+  <object id="35" name="alien" type="waiting1" x="96" y="912" width="32" height="32"/>
+  <object id="36" name="alien" type="waiting1" x="528" y="80" width="32" height="32"/>
+  <object id="37" name="alien" type="waiting1" x="720" y="80" width="32" height="32"/>
+  <object id="38" name="alien" type="waiting1" x="624" y="80" width="32" height="32"/>
+  <object id="39" name="alien" type="waiting1" x="528" y="176" width="32" height="32"/>
+  <object id="40" name="alien" type="waiting1" x="672" y="128" width="32" height="32"/>
+  <object id="41" name="alien" type="waiting1" x="720" y="176" width="32" height="32"/>
+  <object id="42" name="alien" type="waiting1" x="673.333" y="228" width="32" height="32"/>
+  <object id="43" name="alien" type="waiting1" x="576" y="224" width="32" height="32"/>
+  <object id="44" name="alien" type="waiting1" x="528" y="272" width="32" height="32"/>
+  <object id="45" name="alien" type="waiting1" x="576" y="320" width="32" height="32"/>
+  <object id="46" name="alien" type="waiting1" x="720" y="272" width="32" height="32"/>
+  <object id="47" name="alien" type="waiting1" x="672" y="320" width="32" height="32"/>
+  <object id="48" name="alien" type="waiting1" x="1152" y="544" width="32" height="32"/>
+  <object id="49" name="alien" type="waiting1" x="1152" y="656" width="32" height="32"/>
+  <object id="50" name="alien" type="waiting1" x="864" y="816" width="32" height="32"/>
+  <object id="51" name="alien" type="waiting1" x="864" y="928" width="32" height="32"/>
+  <object id="52" name="alien" type="waiting1" x="864" y="1024" width="32" height="32"/>
+  <object id="53" name="alien" type="waiting1" x="304" y="736" width="32" height="32"/>
+  <object id="54" name="alien" type="waiting1" x="432" y="848" width="32" height="32"/>
+  <object id="55" name="alien" type="waiting1" x="560" y="736" width="32" height="32"/>
+  <object id="56" name="alien" type="waiting1" x="224" y="528" width="32" height="32"/>
+  <object id="57" name="alien" type="waiting1" x="288" y="464" width="32" height="32"/>
+  <object id="58" name="alien" type="waiting1" x="368" y="528" width="32" height="32"/>
+  <object id="59" name="alien" type="waiting1" x="1072" y="592" width="32" height="32"/>
+  <object id="60" name="alien" type="waiting1" x="704" y="848" width="32" height="32"/>
+  <object id="61" name="alien" type="waiting1" x="560" y="848" width="32" height="32"/>
+  <object id="62" name="alien" type="waiting1" x="640" y="800" width="32" height="32"/>
+  <object id="63" name="alien" type="waiting1" x="224" y="400" width="32" height="32"/>
+  <object id="64" name="alien" type="waiting1" x="368" y="400" width="32" height="32"/>
+  <object id="65" name="alien mother" type="waiting1" x="192" y="80" width="112" height="162"/>
+  <object id="68" name="atm" x="752" y="496" width="16" height="32"/>
+  <object id="69" name="teleport1" x="64" y="368" width="48" height="48"/>
+  <object id="71" name="teleport2" x="64" y="512" width="48" height="48"/>
+  <object id="72" name="teleport3" x="544" y="992" width="48" height="48"/>
+  <object id="73" name="teleport4" x="688" y="992" width="48" height="48"/>
+  <object id="74" name="alien" type="waiting1" x="432" y="736" width="32" height="32"/>
+  <object id="75" name="alien" type="waiting1" x="304" y="848" width="32" height="32"/>
+  <object id="76" name="alien" type="waiting1" x="705.333" y="738.667" width="32" height="32"/>
+  <object id="77" name="alien" type="waiting1" x="1072" y="688" width="32" height="32"/>
+  <object id="78" name="ammo" x="1200" y="64" width="16" height="16"/>
+  <object id="79" name="ammo" x="832" y="64" width="16" height="16"/>
+  <object id="80" name="ammo" x="832" y="416" width="16" height="16"/>
+  <object id="81" name="ammo" x="1024" y="416" width="16" height="16"/>
+  <object id="82" name="ammo" x="1200" y="416" width="16" height="16"/>
+  <object id="83" name="ammo" x="1200" y="240" width="16" height="16"/>
+  <object id="84" name="ammo" x="1024" y="64" width="16" height="16"/>
+  <object id="85" name="ammo" x="512" y="432" width="16" height="16"/>
+  <object id="86" name="ammo" x="578.667" y="46.6667" width="16" height="16"/>
+  <object id="87" name="ammo" x="704" y="48" width="16" height="16"/>
+  <object id="88" name="ammo" x="512" y="240" width="16" height="16"/>
+  <object id="89" name="ammo" x="768" y="432" width="16" height="16"/>
+  <object id="90" name="ammo" x="816" y="1072" width="16" height="16"/>
+  <object id="91" name="ammo" x="1200" y="736" width="16" height="16"/>
+  <object id="92" name="ammo" x="1200" y="512" width="16" height="16"/>
+  <object id="93" name="ammo" x="832" y="512" width="16" height="16"/>
+  <object id="94" name="armor" x="48" y="432" width="32" height="32"/>
+  <object id="95" name="ammo" x="304" y="592" width="16" height="16"/>
+  <object id="96" name="ammo" x="256" y="352" width="16" height="16"/>
+  <object id="97" name="ammo" x="48" y="160" width="16" height="16"/>
+  <object id="98" name="ammo" x="448" y="48" width="16" height="16"/>
+  <object id="99" name="ammo" x="48" y="288" width="16" height="16"/>
+  <object id="100" name="ammo" x="448" y="288" width="16" height="16"/>
+  <object id="101" name="ammo" x="448" y="352" width="16" height="16"/>
+  <object id="102" name="ammo" x="448" y="592" width="16" height="16"/>
+  <object id="103" name="ammo" x="176" y="656" width="16" height="16"/>
+  <object id="104" name="ammo" x="176" y="912" width="16" height="16"/>
+  <object id="105" name="ammo" x="656" y="1072" width="16" height="16"/>
+  <object id="106" name="ammo" x="752" y="656" width="16" height="16"/>
+  <object id="107" name="ammo" x="992" y="816" width="16" height="16"/>
+  <object id="108" name="ammo" x="1216" y="816" width="16" height="16"/>
+  <object id="109" name="ammo" x="992" y="1056" width="16" height="16"/>
+  <object id="110" name="ammo" x="1216" y="1056" width="16" height="16"/>
+  <object id="111" name="ammo" x="1104" y="896" width="16" height="16"/>
+  <object id="112" name="ammo" x="1104" y="816" width="16" height="16"/>
+  <object id="113" name="ammo" x="1104" y="992" width="16" height="16"/>
+  <object id="114" name="ammo" x="816" y="944" width="16" height="16"/>
+  <object id="115" name="ammo" x="864" y="512" width="16" height="16"/>
+  <object id="116" name="ammo" x="96" y="160" width="16" height="16"/>
+  <object id="117" name="alien" type="waiting1" x="368" y="208" width="32" height="32"/>
+  <object id="118" name="alien" type="waiting1" x="368" y="112" width="32" height="32"/>
+  <object id="119" name="energy" x="96" y="48" width="16" height="16"/>
+  <object id="121" name="energy" x="96" y="288" width="16" height="16"/>
+  <object id="122" name="energy" x="928" y="64" width="16" height="16"/>
+  <object id="123" name="energy" x="1120" y="64" width="16" height="16"/>
+  <object id="124" name="energy" x="1200" y="160" width="16" height="16"/>
+  <object id="125" name="energy" x="1200" y="320" width="16" height="16"/>
+  <object id="126" name="energy" x="1120" y="416" width="16" height="16"/>
+  <object id="127" name="energy" x="928" y="416" width="16" height="16"/>
+  <object id="128" name="alien" type="waiting1" x="624" y="272" width="32" height="32"/>
+  <object id="129" name="alien" type="waiting1" x="576" y="128" width="32" height="32"/>
+  <object id="130" name="alien" type="waiting1" x="624" y="176" width="32" height="32"/>
+  <object id="131" name="trap" x="577.333" y="414.667" width="16" height="16"/>
+  <object id="134" name="trap" x="654.667" y="414.667" width="16" height="16"/>
+  <object id="135" name="trap" x="512" y="128" width="16" height="16"/>
+  <object id="137" name="switcher" x="80" y="1024" width="16" height="16"/>
+  <object id="138" name="switcher" x="48" y="48" width="16" height="16"/>
+  <object id="139" name="switcher" x="448" y="160" width="16" height="16"/>
+  <object id="140" name="switcher" x="176" y="592" width="16" height="16"/>
+  <object id="141" name="switcher" x="176" y="768" width="16" height="16"/>
+  <object id="142" name="switcher" x="752" y="1072" width="16" height="16"/>
+  <object id="143" name="switcher" x="1200" y="608" width="16" height="16"/>
+  <object id="144" name="switcher" x="944" y="1072" width="16" height="16"/>
+  <object id="145" name="switcher" x="1024" y="240" width="16" height="16"/>
+  <object id="146" name="switcher" x="1216" y="928" width="16" height="16"/>
+  <object id="147" name="switcher" x="512" y="48" width="16" height="16"/>
+  <object id="148" name="switcher" x="768" y="48" width="16" height="16"/>
+  <object id="149" name="switcher" x="640" y="48" width="16" height="16"/>
+  <object id="150" name="key" x="480" y="1008" width="16" height="16"/>
+  <object id="154" name="armor" x="32" y="1056" width="32" height="32"/>
+  <object id="155" name="alien" type="waiting1" x="720" y="352" width="32" height="32"/>
+  <object id="156" name="alien" type="waiting1" x="528" y="352" width="32" height="32"/>
+  <object id="158" name="powerup" x="352" y="48" width="16" height="16"/>
+  <object id="160" name="powerup" x="352" y="288" width="16" height="16"/>
+  <object id="161" name="powerup" x="512" y="496" width="16" height="16"/>
+  <object id="162" name="powerup" x="752" y="592" width="16" height="16"/>
+  <object id="163" name="powerup" x="512" y="592" width="16" height="16"/>
+  <object id="165" name="alienthor" type="waiting1" x="928" y="240" width="32" height="32"/>
+  <object id="166" name="mjolnir" x="368" y="784" width="16" height="16"/>
+ </objectgroup>
+</map>

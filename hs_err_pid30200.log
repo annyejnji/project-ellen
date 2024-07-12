@@ -1,0 +1,9 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffee4feb346, pid=30200, tid=30832
+#
+# JRE version: OpenJDK Runtime Environment Zulu13.54+17-CA (13.0.14+5) (build 13.0.14+5-MTS)
+# Java VM: OpenJDK 64-Bit Server VM Zulu13.54+17-CA (13.0.14+5-MTS, mixed mode, sharing, tiered, compressed oops, g1 gc, windows-amd64)
+# Problematic frame:
+# C
